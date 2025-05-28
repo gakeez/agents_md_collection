@@ -1,75 +1,75 @@
 # Agents.md Collection
 
-专注于收集和展示 agents.md 文件的 GitHub 仓库，为前端网站提供结构化的 AI 代理指令内容。
+A GitHub repository focused on collecting and showcasing agents.md files, providing structured AI agent instruction content for frontend websites.
 
-## 📖 项目简介
+## 📖 Project Overview
 
-这个仓库收集各种项目类型的 `agents.md` 文件，每个文件都包含了针对特定项目类型的 AI 代理指令。所有文件都使用 YAML front matter 来存储元数据，确保内容的结构化和易于解析。
+This repository collects `agents.md` files for various project types, each containing AI agent instructions tailored to specific project categories. All files use YAML front matter to store metadata, ensuring structured and easily parseable content.
 
-## 🗂️ 仓库结构
+## 🗂️ Repository Structure
 
 ```
 agents_md_collection/
-├── examples/                 # 各种项目类型的 agents.md 示例
-│   ├── react-project.md     # React 项目示例
-│   └── ...                  # 更多示例
-├── templates/               # 模板文件
-│   └── agents-template.md   # agents.md 模板
-├── CONTRIBUTING.md          # 贡献指南
-└── README.md               # 项目说明
+├── examples/                 # Various project type agents.md examples
+│   ├── react-project.md     # React project example
+│   └── ...                  # More examples
+├── templates/               # Template files
+│   └── agents-template.md   # agents.md template
+├── CONTRIBUTING.md          # Contribution guidelines
+└── README.md               # Project documentation
 ```
 
-## 📋 文件格式
+## 📋 File Format
 
-每个 agents.md 文件都采用以下格式：
+Each agents.md file follows this format:
 
 ```markdown
 ---
-name: "项目名称"
-description: "项目简短描述"
-category: "项目分类"
-author: "作者姓名"
-authorUrl: "作者链接（可选）"
-tags: ["标签1", "标签2", "标签3"]
+name: "Project Name"
+description: "Brief project description"
+category: "Project Category"
+author: "Author Name"
+authorUrl: "Author Link (optional)"
+tags: ["tag1", "tag2", "tag3"]
 lastUpdated: "2024-05-30"
 ---
 
-# 项目标题
+# Project Title
 
-这里是具体的 agents.md 内容...
+Specific agents.md content goes here...
 ```
 
-## 🚀 使用方法
+## 🚀 Usage
 
-1. **浏览示例**: 查看 `examples/` 目录中的各种项目示例
-2. **使用模板**: 复制 `templates/agents-template.md` 作为起点
-3. **贡献内容**: 参考 `CONTRIBUTING.md` 了解如何贡献新的 agents.md 文件
+1. **Browse Examples**: Check out various project examples in the `examples/` directory
+2. **Use Templates**: Copy `templates/agents-template.md` as a starting point
+3. **Contribute Content**: Refer to `CONTRIBUTING.md` to learn how to contribute new agents.md files
 
-## 📊 元数据字段说明
+## 📊 Metadata Fields
 
-| 字段 | 类型 | 必需 | 说明 |
-|------|------|------|------|
-| `name` | String | ✅ | 项目或模板的名称 |
-| `description` | String | ✅ | 简短的项目描述 |
-| `category` | String | ✅ | 项目分类（如：前端框架、后端服务等） |
-| `author` | String | ✅ | 作者姓名 |
-| `authorUrl` | String | ❌ | 作者的 GitHub 或个人网站链接 |
-| `tags` | Array | ✅ | 相关技术标签 |
-| `lastUpdated` | String | ✅ | 最后更新日期（YYYY-MM-DD 格式） |
+| Field         | Type   | Required | Description                                                  |
+| ------------- | ------ | -------- | ------------------------------------------------------------ |
+| `name`        | String | ✅       | Project or template name                                     |
+| `description` | String | ✅       | Brief project description                                    |
+| `category`    | String | ✅       | Project category (e.g., Frontend Framework, Backend Service) |
+| `author`      | String | ✅       | Author name                                                  |
+| `authorUrl`   | String | ❌       | Author's GitHub or personal website link                     |
+| `tags`        | Array  | ✅       | Related technology tags                                      |
+| `lastUpdated` | String | ✅       | Last update date (YYYY-MM-DD format)                         |
 
-## 🤝 贡献
+## 🤝 Contributing
 
-欢迎贡献新的 agents.md 文件！请查看 [CONTRIBUTING.md](CONTRIBUTING.md) 了解详细的贡献指南。
+We welcome contributions of new agents.md files! Please check [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
 
-## 📄 许可证
+## 📄 License
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 相关链接
+## 🔗 Related Links
 
-- [什么是 agents.md？](https://github.com/AugmentCode/agents.md)
-- [AI 代理最佳实践](https://docs.augmentcode.com)
+- [What is agents.md?](https://github.com/AugmentCode/agents.md)
+- [AI Agent Best Practices](https://docs.augmentcode.com)
 
 ---
 
-⭐ 如果这个项目对您有帮助，请给我们一个 Star！
+⭐ If this project helps you, please give us a Star!

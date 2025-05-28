@@ -1,32 +1,32 @@
 ---
-name: "项目名称"
-description: "简短的项目描述（50-100字）"
-category: "项目分类"
-author: "您的姓名"
-authorUrl: "https://github.com/yourusername"  # 可选字段
+name: "Project Name"
+description: "Brief project description (50-100 words)"
+category: "Project Category"
+author: "Your Name"
+authorUrl: "https://github.com/yourusername" # Optional field
 tags: ["tag1", "tag2", "tag3"]
 lastUpdated: "YYYY-MM-DD"
 ---
 
-# 项目标题
+# Project Title
 
-## 项目概述
+## Project Overview
 
-简要描述这个项目的目的、功能和适用场景。说明为什么需要这个项目，它解决了什么问题。
+Briefly describe the purpose, functionality, and applicable scenarios of this project. Explain why this project is needed and what problems it solves.
 
-## 技术栈
+## Tech Stack
 
-列出项目使用的主要技术和工具：
+List the main technologies and tools used in the project:
 
-- **前端**: 
-- **后端**: 
-- **数据库**: 
-- **部署**: 
-- **其他工具**: 
+- **Frontend**:
+- **Backend**:
+- **Database**:
+- **Deployment**:
+- **Other Tools**:
 
-## 项目结构
+## Project Structure
 
-描述推荐的项目目录结构：
+Describe the recommended project directory structure:
 
 ```
 project-name/
@@ -42,152 +42,174 @@ project-name/
 └── README.md
 ```
 
-## 开发规范
+## Development Guidelines
 
-### 代码风格
-- 使用一致的代码格式化工具
-- 遵循语言特定的最佳实践
-- 保持代码简洁和可读性
+### Code Style
 
-### 命名规范
-- 文件命名：
-- 变量命名：
-- 函数命名：
-- 类命名：
+- Use consistent code formatting tools
+- Follow language-specific best practices
+- Keep code clean and readable
 
-### Git 工作流
-- 分支命名规范
-- 提交信息格式
-- Pull Request 流程
+### Naming Conventions
 
-## 环境配置
+- File naming:
+- Variable naming:
+- Function naming:
+- Class naming:
 
-### 开发环境要求
-- Node.js 版本：
-- 包管理器：
-- 其他依赖：
+### Git Workflow
 
-### 安装步骤
+- Branch naming conventions
+- Commit message format
+- Pull Request process
+
+## Environment Setup
+
+### Development Requirements
+
+- Node.js version:
+- Package manager:
+- Other dependencies:
+
+### Installation Steps
+
 ```bash
-# 1. 克隆项目
+# 1. Clone the project
 git clone [repository-url]
 
-# 2. 安装依赖
+# 2. Install dependencies
 npm install
 
-# 3. 启动开发服务器
+# 3. Start development server
 npm run dev
 ```
 
-## 核心功能实现
+## Core Feature Implementation
 
-### 功能模块1
-描述主要功能的实现方式和关键代码示例。
+### Feature Module 1
+
+Describe the implementation approach and key code examples for main features.
 
 ```javascript
-// 示例代码
+// Example code
 function exampleFunction() {
-    // 实现逻辑
+  // Implementation logic
 }
 ```
 
-### 功能模块2
-描述另一个重要功能的实现。
+### Feature Module 2
 
-## 测试策略
+Describe the implementation of another important feature.
 
-### 单元测试
-- 测试框架：
-- 测试覆盖率要求：
-- 测试文件组织：
+## Testing Strategy
 
-### 集成测试
-- 测试场景：
-- 测试工具：
+### Unit Testing
 
-### 端到端测试
-- 测试流程：
-- 自动化工具：
+- Testing framework:
+- Test coverage requirements:
+- Test file organization:
 
-## 部署指南
+### Integration Testing
 
-### 构建流程
+- Test scenarios:
+- Testing tools:
+
+### End-to-End Testing
+
+- Test workflow:
+- Automation tools:
+
+## Deployment Guide
+
+### Build Process
+
 ```bash
-# 构建命令
+# Build command
 npm run build
 ```
 
-### 部署步骤
-1. 准备生产环境
-2. 配置环境变量
-3. 执行部署脚本
-4. 验证部署结果
+### Deployment Steps
 
-### 环境变量
+1. Prepare production environment
+2. Configure environment variables
+3. Execute deployment scripts
+4. Verify deployment results
+
+### Environment Variables
+
 ```env
-# 必需的环境变量
+# Required environment variables
 API_URL=
 DATABASE_URL=
 SECRET_KEY=
 ```
 
-## 性能优化
+## Performance Optimization
 
-### 前端优化
-- 代码分割
-- 懒加载
-- 缓存策略
+### Frontend Optimization
 
-### 后端优化
-- 数据库查询优化
-- 缓存机制
-- 负载均衡
+- Code splitting
+- Lazy loading
+- Caching strategies
 
-## 安全考虑
+### Backend Optimization
 
-### 数据安全
-- 输入验证
-- SQL 注入防护
-- XSS 防护
+- Database query optimization
+- Caching mechanisms
+- Load balancing
 
-### 认证授权
-- 用户认证流程
-- 权限控制
-- Token 管理
+## Security Considerations
 
-## 监控和日志
+### Data Security
 
-### 应用监控
-- 性能指标
-- 错误追踪
-- 用户行为分析
+- Input validation
+- SQL injection protection
+- XSS protection
 
-### 日志管理
-- 日志级别
-- 日志格式
-- 日志存储
+### Authentication & Authorization
 
-## 常见问题
+- User authentication flow
+- Permission control
+- Token management
 
-### 问题1：[具体问题描述]
-**解决方案**：详细的解决步骤
+## Monitoring and Logging
 
-### 问题2：[具体问题描述]
-**解决方案**：详细的解决步骤
+### Application Monitoring
 
-## 参考资源
+- Performance metrics
+- Error tracking
+- User behavior analytics
 
-- [官方文档链接]
-- [相关教程]
-- [社区资源]
-- [最佳实践指南]
+### Log Management
 
-## 更新日志
+- Log levels
+- Log format
+- Log storage
+
+## Common Issues
+
+### Issue 1: [Specific issue description]
+
+**Solution**: Detailed solution steps
+
+### Issue 2: [Specific issue description]
+
+**Solution**: Detailed solution steps
+
+## Reference Resources
+
+- [Official Documentation Link]
+- [Related Tutorials]
+- [Community Resources]
+- [Best Practices Guide]
+
+## Changelog
 
 ### v1.0.0 (YYYY-MM-DD)
-- 初始版本发布
-- 实现基础功能
+
+- Initial release
+- Implemented basic features
 
 ---
 
-**注意**: 请根据具体项目类型调整和完善以上内容，删除不适用的章节，添加项目特有的内容。
+**Note**: Please adjust and improve the above content according to the specific project type, remove inapplicable sections, and add project-specific content.

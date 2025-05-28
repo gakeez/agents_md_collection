@@ -1,136 +1,144 @@
-# 贡献指南
+# Contributing Guide
 
-感谢您对 Agents.md Collection 项目的关注！我们欢迎所有形式的贡献。
+Thank you for your interest in the Agents.md Collection project! We welcome all forms of contributions.
 
-## 🎯 贡献类型
+## 🎯 Contribution Types
 
-- 添加新的 agents.md 文件示例
-- 改进现有的示例
-- 修复文档错误
-- 提出改进建议
+- Add new agents.md file examples
+- Improve existing examples
+- Fix documentation errors
+- Suggest improvements
 
-## 📝 添加新的 agents.md 文件
+## 📝 Adding New agents.md Files
 
-### 1. 文件命名规范
+### 1. File Naming Convention
 
-- 使用小写字母和连字符：`project-type.md`
-- 文件名应该清晰描述项目类型
-- 例如：`react-project.md`、`python-fastapi.md`、`nodejs-express.md`
+- Use lowercase letters and hyphens: `project-type.md`
+- File names should clearly describe the project type
+- Examples: `react-project.md`, `python-fastapi.md`, `nodejs-express.md`
 
-### 2. 文件结构要求
+### 2. File Structure Requirements
 
-每个 agents.md 文件必须包含以下结构：
+Each agents.md file must include the following structure:
 
 ```markdown
 ---
-name: "项目名称"
-description: "简短的项目描述（不超过100字）"
-category: "项目分类"
-author: "您的姓名"
-authorUrl: "https://github.com/yourusername"  # 可选
+name: "Project Name"
+description: "Brief project description (under 100 words)"
+category: "Project Category"
+author: "Your Name"
+authorUrl: "https://github.com/yourusername" # Optional
 tags: ["tag1", "tag2", "tag3"]
 lastUpdated: "2024-05-30"
 ---
 
-# 项目标题
+# Project Title
 
-## 项目概述
-简要描述项目的目的和功能...
+## Project Overview
 
-## 技术栈
-- 技术1
-- 技术2
+Brief description of the project's purpose and functionality...
 
-## 项目结构
-描述推荐的项目结构...
+## Tech Stack
 
-## 开发规范
-详细的开发指导原则...
+- Technology 1
+- Technology 2
 
-## 示例代码
-提供相关的代码示例...
+## Project Structure
+
+Describe the recommended project structure...
+
+## Development Guidelines
+
+Detailed development principles...
+
+## Example Code
+
+Provide relevant code examples...
 ```
 
-### 3. 元数据填写指南
+### 3. Metadata Guidelines
 
-#### 必填字段：
-- **name**: 项目或模板的清晰名称
-- **description**: 50-100字的简短描述
-- **category**: 选择合适的分类（见下方分类列表）
-- **author**: 您的真实姓名或 GitHub 用户名
-- **tags**: 3-6个相关技术标签
-- **lastUpdated**: 当前日期（YYYY-MM-DD 格式）
+#### Required Fields:
 
-#### 可选字段：
-- **authorUrl**: 您的 GitHub 主页或个人网站
+- **name**: Clear project or template name
+- **description**: 50-100 word brief description
+- **category**: Choose appropriate category (see category list below)
+- **author**: Your real name or GitHub username
+- **tags**: 3-6 relevant technology tags
+- **lastUpdated**: Current date (YYYY-MM-DD format)
 
-#### 推荐分类：
-- `前端框架` - React、Vue、Angular 等
-- `后端服务` - Express、FastAPI、Spring Boot 等
-- `移动开发` - React Native、Flutter 等
-- `桌面应用` - Electron、Tauri 等
-- `数据科学` - Python 数据分析、机器学习等
-- `DevOps` - Docker、Kubernetes、CI/CD 等
-- `游戏开发` - Unity、Godot 等
-- `区块链` - Web3、智能合约等
+#### Optional Fields:
 
-### 4. 内容质量要求
+- **authorUrl**: Your GitHub homepage or personal website
 
-- **实用性**: 内容应该对实际项目开发有帮助
-- **完整性**: 包含足够的细节和示例
-- **准确性**: 确保技术信息的正确性
-- **清晰性**: 使用清晰的语言和良好的格式
+#### Recommended Categories:
 
-## 🔄 提交流程
+- `Frontend Framework` - React, Vue, Angular, etc.
+- `Backend Service` - Express, FastAPI, Spring Boot, etc.
+- `Mobile Development` - React Native, Flutter, etc.
+- `Desktop Application` - Electron, Tauri, etc.
+- `Data Science` - Python data analysis, machine learning, etc.
+- `DevOps` - Docker, Kubernetes, CI/CD, etc.
+- `Game Development` - Unity, Godot, etc.
+- `Blockchain` - Web3, smart contracts, etc.
 
-1. **Fork 仓库**
-2. **创建新分支**: `git checkout -b add-new-agent-example`
-3. **添加文件**: 在 `examples/` 目录下添加您的 agents.md 文件
-4. **测试验证**: 确保 YAML front matter 格式正确
-5. **提交更改**: 
+### 4. Content Quality Requirements
+
+- **Practicality**: Content should be helpful for actual project development
+- **Completeness**: Include sufficient details and examples
+- **Accuracy**: Ensure technical information is correct
+- **Clarity**: Use clear language and good formatting
+
+## 🔄 Submission Process
+
+1. **Fork the repository**
+2. **Create a new branch**: `git checkout -b add-new-agent-example`
+3. **Add your file**: Add your agents.md file to the `examples/` directory
+4. **Test and validate**: Ensure YAML front matter format is correct
+5. **Commit changes**:
    ```bash
    git add examples/your-project.md
-   git commit -m "Add: [项目类型] agents.md example"
+   git commit -m "Add: [Project Type] agents.md example"
    ```
-6. **推送分支**: `git push origin add-new-agent-example`
-7. **创建 Pull Request**
+6. **Push branch**: `git push origin add-new-agent-example`
+7. **Create Pull Request**
 
-## ✅ Pull Request 检查清单
+## ✅ Pull Request Checklist
 
-在提交 PR 之前，请确保：
+Before submitting a PR, ensure:
 
-- [ ] 文件名符合命名规范
-- [ ] YAML front matter 格式正确且包含所有必填字段
-- [ ] 内容结构清晰，包含必要的章节
-- [ ] 技术信息准确无误
-- [ ] 语言表达清晰易懂
-- [ ] 提供了实用的示例代码（如适用）
+- [ ] File name follows naming convention
+- [ ] YAML front matter format is correct and includes all required fields
+- [ ] Content structure is clear and includes necessary sections
+- [ ] Technical information is accurate
+- [ ] Language is clear and understandable
+- [ ] Practical example code is provided (if applicable)
 
-## 🐛 报告问题
+## 🐛 Reporting Issues
 
-如果您发现任何问题，请：
+If you find any issues, please:
 
-1. 检查是否已有相关 Issue
-2. 创建新的 Issue，包含：
-   - 问题的详细描述
-   - 重现步骤（如适用）
-   - 期望的行为
-   - 相关的文件或链接
+1. Check if there's already a related Issue
+2. Create a new Issue including:
+   - Detailed description of the problem
+   - Steps to reproduce (if applicable)
+   - Expected behavior
+   - Related files or links
 
-## 💡 改进建议
+## 💡 Improvement Suggestions
 
-我们欢迎任何改进建议！请通过以下方式分享：
+We welcome any improvement suggestions! Please share through:
 
-- 创建 Issue 讨论新功能
-- 在现有 Issue 中参与讨论
-- 直接提交改进的 Pull Request
+- Create an Issue to discuss new features
+- Participate in discussions on existing Issues
+- Submit improvement Pull Requests directly
 
-## 📞 联系我们
+## 📞 Contact Us
 
-如果您有任何问题，可以：
+If you have any questions, you can:
 
-- 创建 GitHub Issue
-- 发送邮件至：[your-email@example.com]
-- 在 GitHub Discussions 中讨论
+- Create a GitHub Issue
+- Send email to: [your-email@example.com]
+- Discuss in GitHub Discussions
 
-感谢您的贡献！🎉
+Thank you for your contribution! 🎉
