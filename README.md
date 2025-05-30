@@ -67,6 +67,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Related Links
 
+- [🌐 Live Demo - AgentsMD.net](https://agentsmd.net) - **Explore all agents.md files with beautiful UI! Try it now →**
 - [What is agents.md?](https://github.com/AugmentCode/agents.md)
 - [AI Agent Best Practices](https://docs.augmentcode.com)
 
